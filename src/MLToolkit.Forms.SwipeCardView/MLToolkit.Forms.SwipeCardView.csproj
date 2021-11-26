@@ -2,18 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>MLToolkit.Forms.SwipeCardView</PackageId>
+    <PackageId>MLToolkit.Forms.ImprovedSwipeCardView</PackageId>
     <Version Condition=" '$(BUILD_BUILDNUMBER)' == '' ">1.0.0.0</Version>
     <Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</Version>
     <Authors>Marko Lazic</Authors>
     <Owners>Marko Lazic</Owners>
-    <PackageProjectUrl>https://github.com/markolazic88/SwipeCardView</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/SergeyChagai/ImprovedSwipeCardView</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>xamarin xamarin.forms android ios swipe card view mltoolkit tinder</PackageTags>
-    <Description>SwipeCardView is a lightweight MVVM friendly user control that brings Tinder-style swipe card view into Xamarin.Forms applications.</Description>
+    <PackageTags>tinder</PackageTags>
+    <Description>SwipeCardView is a lightweight MVVM friendly user control that brings Tinder-style swipe card view into Xamarin.Forms applications.
+Some UI behaviour was improved from original repository.</Description>
     <Copyright>Copyright 2020</Copyright>
-    <RepositoryUrl>https://github.com/markolazic88/SwipeCardView</RepositoryUrl>
-    <PackageReleaseNotes>https://github.com/markolazic88/SwipeCardView/blob/master/docs/changelog.md</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/SergeyChagai/ImprovedSwipeCardView.git</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/SergeyChagai/ImprovedSwipeCardView/blob/master/docs/changelog.md</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>MLToolkit.Forms.ImprovedSwipeCardView</Product>
   </PropertyGroup>
 
   <ItemGroup>
