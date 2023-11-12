@@ -13,7 +13,7 @@ This netstandard2.0 library is intended for anyone who wants to build swipeable 
 
 ## Setup
 
-- Available on NuGet: [MLToolkit.Forms.SwipeCardView](https://www.nuget.org/packages/MLToolkit.Forms.SwipeCardView/)
+- Available on NuGet: [MLToolkit.Forms.ImprovedSwipeCardView](https://www.nuget.org/packages/MLToolkit.Forms.ImprovedSwipeCardView/)
 - Install into your PCL/.NET Standard project
 
 ## Features
